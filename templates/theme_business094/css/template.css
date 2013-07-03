@@ -1,0 +1,196 @@
+@import url(reset.css);
+
+/*_______________GENERAL SETUP________________*/
+body { font-size:12px; font-family:Tahoma, Arial, Helvetica, sans-serif; background:#c8dfe8 }
+#body { background:#c8dfe8 url(../images/bg.png) top repeat-x; color:#372b10 }
+html { height:100.1%; }
+body, td { line-height:120% }
+a { color:#2f5c71 }
+a:hover { color:#000 }
+
+/*___________________MAIN LAYOUT________________*/
+#wrapper { width:970px; margin:0 auto }
+#headerLogo { width:970px; height:280px; background:url(../images/header-logo.png) no-repeat  }
+#headerLeft { width:528px; height:218px; float:left }
+#headerRight { width:442px; height:218px; float:right }
+#logo { width:390px; height:125px; float:left; margin:60px 0 0 50px }
+.search .inputbox { color:#fff; font-weight:bold; background:none; border:0; width:200px; height:16px; padding:0; margin:25px 5px 0 0; float:right; font-size:0.9em }
+#contentWrap { width:940px; margin:0 auto }
+
+#mainLeft { width:613px; float:left; margin:10px 0; padding:0 }
+#mainLeftTp { background:url(../images/main-top.png) no-repeat; width:613px; height:18px; margin:0 }
+#mainLeftContent { background:#fff; padding:0 15px }
+#mainLeftBt { background:url(../images/main-bottom.png) no-repeat; width:613px; height:18px; margin:0 }
+
+#mainFull { width:940px; margin:10px auto }
+#mainFullTp { background:url(../images/main-full-top.png) no-repeat; width:940px; height:18px; margin:0 }
+#mainFullContent { background:#fff; padding:0 15px }
+#mainFullBt { background:url(../images/main-full-bottom.png) no-repeat; width:940px; height:18px; margin:0 }
+
+#rightColumn { width:313px; float:right; padding:0; margin:10px 0 }
+
+#footer { width:940px; color:#fff; margin:0 auto }
+#footerMid { padding:0 25px; background:url(../images/footer-mid.png) top repeat-y }
+#footerMid:after { content:"."; display:block; height:0; clear:both; visibility:hidden }
+#footerMid { display:inline-block } /* Hide from IE Mac \*/
+#footerMid { display:block } /* End hide from IE Mac */
+* html #footerMid { height:1px } /*for IE6 and down*/
+
+#footerTop { background:url(../images/footer-top.png) no-repeat; height:32px; width:940px }
+#footerBottom { background:url(../images/footer-bottom.png) no-repeat; height:32px; width:940px }
+#footer a { color:#fff }
+#footer .text { width:960px; margin:0 auto  }
+#copyright { width:940px; padding:15px 0; text-align:center; font-size:0.9em }
+
+/*__________VERTICAL SIDE MENU STYLES________*/
+ul.menu { margin:0; padding:0; z-index:50 !important }
+ul.menu li { list-style:none; margin:0; padding:0; z-index:50 !important }
+ul.menu span { display:block; height:18px; line-height:18px; padding-left:0 }
+ul.menu a { display:block; background:url(../images/menu-list.gif) left no-repeat; font-weight:bold; margin:0; text-decoration:none; cursor:pointer }
+ul.menu a:hover { background:url(../images/menu-list.gif) left no-repeat }
+ul.menu ul { margin-left:14px; padding:0 }
+ul.menu ul a { text-indent:0; z-index:50 !important; cursor:pointer }
+ul.menu ul li a {  text-align:left; margin:0 }
+ul.menu li.active li a:hover { cursor:pointer }
+ul.menu li li { padding:0; margin:0; z-index:50 !important }
+ul.menu li a { padding-left:10px; z-index:50 !important }
+ul.menu li.active a { text-decoration: none; z-index:50 !important }
+ul.menu li a:hover, ul.menu li.active a:hover, ul.menu li.active li a:hover { text-decoration:underline }
+ul.menu li.active li a { background:url(../images/menu-list.gif) left no-repeat; margin-left:5px; text-indent:4px; z-index:50 !important; text-decoration:inherit; font-weight:normal } /* submenu link color */ 
+/*_________END VERTICAL SIDE MENU STYLES________*/
+
+/*__________MODULE STYLES________*/
+
+/* DEFAULT MODULES (position- right) */
+#rightColumn .moduletable, #rightColumn .moduletable_menu, #rightColumn .moduletable_text { padding:0 0 10px 0; margin:0 0 10px 0; width:313px; background:url(../images/white-mod-bottom.png) bottom no-repeat }
+#rightColumn .moduletable h3, #rightColumn .moduletable_menu h3, #rightColumn .moduletable_text h3 
+{ padding:15px 0 6px 38px; margin:0; font-size:1.3em; font-weight:bold; background:url(../images/white-mod-top.png) top no-repeat; }
+#rightColumn .moduletable .cont, #rightColumn .moduletable_menu .cont, #rightColumn .moduletable_text .cont { background:#fff; padding:4px 20px 5px 20px }
+.pollstableborder, .poll { text-align:left; width:auto }
+.poll td { margin:0; padding:0 }
+#rightColumn .moduletable .bannergroup, #rightColumn .moduletable_text #rightColumn .bannergroup_text { padding:0; margin:0; width:100% }
+#rightColumn .moduletable .cont ul, #rightColumn .moduletable_text .cont ul { margin:0 0 0 10px; padding:0; border:0 }
+#rightColumn li { margin:0 0 0 10px; padding:0 }
+
+/* DEFAULT MODULES (position- footer) */
+#footer .moduletable, #footer .moduletable_menu, #footer .moduletable_text { padding:0; margin:0 3px; width:215px; float:left }
+#footer .moduletable h3, #footer .moduletable_menu h3, #footer .moduletable_text h3 { background:none; padding:0 0 5px 0; margin:0; font-size:1.3em; font-weight:bold; color:#b5e2f5 }
+#footer .moduletable .cont, #footer .moduletable_menu .cont  { background:none; padding:3px 1px }
+#footer .moduletable_text .cont { background:none; padding:3px 20px 3px 0 }
+#footer .moduletable .bannergroup, #footer .moduletable_text #footer .bannergroup_text { padding:0; margin:0; width:100% }
+#footer .pollstableborder, #footer .poll { text-align:left; width:auto }
+#footer .poll td { margin:0; padding:0; text-align:left } 
+#footer .poll td div  { text-align:left; float:left; clear:none; margin:0px; padding:0;  }
+#footer .moduletable .cont ul, #footer .moduletable .cont ul { margin:0; padding:0; border:0 }
+#footer li { list-style:none; margin:0; padding:0 }
+#footer ul.menu a { background:url(../images/menu-list-ft.gif) left no-repeat }
+
+
+/* BLUE MODULE (position- right) */
+.moduletable_blue  { padding:0 0 10px 0; margin:0 0 10px 0; width:313px; background:url(../images/blue-mod-bottom.png) bottom no-repeat; color:#fff }
+.moduletable_blue h3 { padding:15px 0 6px 38px; margin:0; font-size:1.3em; font-weight:bold; color:#fff; background:url(../images/blue-mod-top.png) top no-repeat }
+.moduletable_blue .cont { background:#2fb3ec; padding:4px 20px 5px 20px }
+.moduletable_blue .cont ul { margin:0 0 0 10px; padding:0; border:0 }
+.moduletable_blue li { margin:0 0 0 10px; padding:0 }
+.moduletable_blue a { color:#fff }
+
+/*SLIDESHOW (user 5) */
+.moduletable_headerBanners { padding:0; margin:52px 0 0 120px; width:263px }
+
+/*HEADER BANNERS (user 6) */ 
+.moduletable_flashBanners { padding:0; margin:0 auto 15px auto; background:#000; width:573px; height:133px }
+.moduletable_flashBanners ul li { background:none }
+
+/*LOGIN MODULE ( user 7) */
+.moduletable_login { padding:15px 0; margin:0 0 0 20px; color:#fff }
+.moduletable_login fieldset { float:left; clear:none }
+.moduletable_login .cont { margin:0; padding:0 }
+.moduletable_login a { color:#8bd5f4; font-size:.9em }
+.moduletable_login a:hover { color:#fff }
+.moduletable_login li, .moduletable_login p { list-style:none; float:left; margin:0 5px }
+.moduletable_login .input .inputbox { width:120px; height:13px }
+.moduletable_login ul { margin:0; padding:0 }
+#modlgn_remember { width:16px; border:none; margin:0 5px 0 0 }
+#form-login-remember { margin:0 }
+#form-login .button { background:url(../images/login-button.png) no-repeat; float:left; width:54px; height:21px; color:#fff; font-weight:bold; margin:0 5px 0 0 }
+
+/*____________END MODULE STYLES______________ */
+
+
+/*________________GENERAL STYLES_________________*/
+.left { float:left; position:relative }
+.right { float:right; position:relative; cursor:pointer}
+.clear { clear:both }
+.clear-l { clear:left }
+.clear-r { clear:right }
+.spacer	{ height:10px }
+hr { height:1px; color:#ccc }
+
+/* Use imgRight and imgLeft classes for spacing, alignment, and image borders. */ 
+/*Image Styles*/
+.contentpaneopen img { margin:8px }
+.buttonheading a { margin:0 2px }
+td.buttonheading img, .hasTip img { border:none; margin:0 2px; padding: 0;  }
+.imgRight { float:right }
+.imgLeft { float:left }
+.img {  border:3px double #ccc }
+/*End Image Styless*/
+.createdate, .small, .modifydate, .pagenavcounter { font-size:0.8em; padding:2px 0; color:#25abe6 }
+table.contentpaneopen, table.blog, div .contentpane { width:100% }
+table.contentpaneopen fieldset { margin-top:15px; border-bottom:1px dotted #ccc; padding-bottom:7px; width:98% }
+.contentpane li { margin-bottom:8px; border-bottom:1px solid #ccc; padding-bottom:5px }
+td.contentdescription { padding:8px; }
+.componentheading, .contentheading { font-size:1.3em; color:#395d6f; font-weight:bold; padding:0; margin:0; width:100% }
+.componentheading { margin:0; padding:0 0 5px 0 }
+div .componentheading { background:none; height:20px; line-height:20px  }
+.button { width:80px; height:22px; border:none; padding:0; margin:5px 0 0 0; color:#2f291d; font-size:0.9em; background:url(../images/button.png) no-repeat }
+a.readon { color:#fff; background:url(../images/read.png) no-repeat; display:block; width:100px; height:23px; line-height:23px; font-weight:bold; text-decoration:none; text-align:center; float:right; font-size:0.9em }
+a.readon:hover { color:#F0EBD2  }
+.article_separator { display:block; height:10px; padding:4px 0; width:99%; background:url(../images/article-div.gif) repeat-x }
+.column_separator { border-left:1px dotted #ccc; padding-left:10px; }
+.pagenav  { font-size:1em }
+#searchForm .button { margin-left:10px }
+.inputbox { border:1px solid #ccc; width:auto }
+
+h1 { font-size:1.4em }
+h2 { font-size:1.3em }
+h3 { font-size:1.2em }
+h4 { font-size:1.1em }
+
+/*___________________Table View______________*/
+td.sectiontableheader { background:#ddf0f8; border-right:1px dotted #fff; padding:5px 10px; font-weight:bold }
+td.sectiontableheader a { text-decoration:none }
+tr.sectiontableentry1 td, tr.sectiontableentry2 td { padding:7px }
+#count { width:10% }
+#tableOrdering { width:70% }
+#author { width:20% }
+
+/* System Standard Messages */
+#system-message { color:#000 }
+#system-message { margin-bottom: 20px; }
+#system-message dd.message ul { list-style:none; background:#C3D2E5 url(../../system/images/notice-info.png) 4px center no-repeat;border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; margin:0px; padding:10px 0 10px 40px; text-indent:0px }
+/* System Error Messages */
+#system-message dd.error ul { list-style:none; color:#c00; background:#E6C0C0 url(../../system/images/notice-alert.png) 4px center no-repeat; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; margin:0px; padding:10px 0 10px 40px; text-indent:0px;}
+/* System Notice Messages */
+#system-message dd.notice ul { list-style:none; color:#c00; background:#EFE7B8 url(../../system/images/notice-note.png) 4px center no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E; margin:0px; padding:10px 0 10px 40px; text-indent:0px;}
+#system-message .message ul li { list-style:none; background-image:none }
+
+/* -- Editor Buttons -- */
+#editor-xtd-buttons { padding:5px }
+.button2-left, .button2-right, .button2-left div, .button2-right div { float:left }
+.button2-left a, .button2-right a, .button2-left span, .button2-right span { display:block; height:22px; float:left; line-height:22px; color:#000; cursor:pointer } /*font-size */
+.button2-left span, .button2-right span {cursor:default; color:#000 }
+.button2-left .page a, .button2-right .page a, .button2-left .page span, .button2-right .page span { padding:0 6px }
+.page span { color:#000; font-weight:bold }
+.button2-left a:hover, .button2-right a:hover { text-decoration:none; color:#0B55C4 }
+.button2-left a, .button2-left span { text-decoration:none; padding:0 24px 0 6px }
+.button2-right a, .button2-right span { text-decoration:none; padding:0 6px 0 24px }
+.button2-left { background: url(../../system/images/j_button2_left.png) no-repeat; float:left; margin-left:5px }
+.button2-right { background: url(../../system/images/j_button2_right.png) 100% 0 no-repeat; float:left; margin-left:5px }
+.button2-left .image { background: url(../../system/images/j_button2_image.png) 100% 0 no-repeat }
+.button2-left .readmore { background: url(../../system/images/j_button2_readmore.png) 100% 0 no-repeat }
+.button2-left .pagebreak { background: url(../../system/images/j_button2_pagebreak.png) 100% 0 no-repeat }
+
+/* Component Specific Fixes */
+#component-contact table td { padding: 2px 10px }
+#component-contact img { border:none; margin:0; padding:0 }

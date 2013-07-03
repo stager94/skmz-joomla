@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery frameColor="0xFFFFFF" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
+<image>
+<url>http://skmz.dn.ua/images/morfeoshow/certificate-6016/big/cert_1.jpg</url>
+<caption><![CDATA[<p>Сертификат на систему управления качеством</p>]]></caption>
+<width>700</width>
+<height>465</height>
+</image>
+<image>
+<url>http://skmz.dn.ua/images/morfeoshow/certificate-6016/big/cert_2.jpg</url>
+<caption><![CDATA[<p>Сертификат соответствия системы менеджмента требованиям стандарта EN ISO 9001:2008</p>]]></caption>
+<width>700</width>
+<height>465</height>
+</image>
+<image>
+<url>http://skmz.dn.ua/images/morfeoshow/certificate-6016/big/cert_4.jpg</url>
+<caption><![CDATA[<p>Certificate EN ISO 9001:2008</p>]]></caption>
+<width>700</width>
+<height>465</height>
+</image>
+<image>
+<url>http://skmz.dn.ua/images/morfeoshow/certificate-6016/big/Свидетельства-лаборатории.jpg</url>
+<caption><![CDATA[<p>Свидетельство об аттестации ЦЗЛ</p>]]></caption>
+<width>700</width>
+<height>465</height>
+</image>
+</gallery>

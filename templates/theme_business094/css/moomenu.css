@@ -1,0 +1,27 @@
+/* HORIZONAL MENU SYSTEM */
+.menutop, .menutop *{margin:0; padding:0;}
+#topRight {position: relative; z-index: 100; cursor:pointer}
+div#horiz-menu{position:inherit; z-index:50;}
+#horiz-menu li li{margin:0;}
+.menutop{line-height:1.0; float:left; margin-bottom:1.5em; position:relative; z-index:50;}
+.menutop ul{background:#fff; padding:0;}
+.menutop li{float:left; list-style:none; position:relative; z-index:50;}
+
+#right-menu li li{margin:0; cursor:pointer}
+.menuright{line-height:1.0; float:left; margin-bottom:1.5em; position:relative; z-index:50;}
+.menuright ul{background:#fff; padding:0;}
+.menuright li{float:left; list-style:none; position:relative; z-index:50;}
+
+div#horiz-menu li li a, div#horiz-menu li.active li a{display:block; padding:0; margin:0; text-decoration:none; float:none; height:26px; line-height:30px; text-indent:8px; width:200px; z-index:50; cursor:pointer}
+.menutop li ul{float:none; left:-999em; position:absolute; width:200px; z-index:90;}
+.menutop li:hover ul, .menutop li.sfHover ul{left:0px; top:34px; z-index:50;} /* ADJUST POSITION OF DROP DOWN MENU HERE */
+.menutop li:hover li ul, .menutop li.sfHover li ul, .menutop li li:hover li ul, .menutop li li.sfHover li ul, .menutop li li li:hover li ul, .menutop li li li.sfHover li ul{top:-999em;}
+.menutop li li:hover ul, .menutop li li.sfHover ul, .menutop li li li:hover ul, .menutop li li li.sfHover ul, .menutop li li li li:hover ul, .menutop li li li li.sfHover ul{left:200px; top:0px; z-index:50;}
+.menutop li li{position:relative; float:none; width:100%; z-index:50;}
+
+div#right-menu li li a, div#right-menu li.active li a{display:block; padding:0; margin:0; text-decoration:none; float:none; height:26px; line-height:30px; text-indent:8px; width:200px; z-index:50;}
+.menuright li ul{float:none; left:-999em; position:absolute; width:200px; z-index:90;}
+.menuright li:hover ul, .menuright li.sfHover ul{left:0px; top:38px; z-index:50;}
+.menuright li:hover li ul, .menuright li.sfHover li ul, .menuright li li:hover li ul, .menuright li li.sfHover li ul, .menuright li li li:hover li ul, .menuright li li li.sfHover li ul{top:-999em;}
+.menuright li li:hover ul, .menuright li li.sfHover ul, .menuright li li li:hover ul, .menuright li li li.sfHover ul, .menuright li li li li:hover ul, .menuright li li li li.sfHover ul{left:200px; top:0px; z-index:50;}
+.menuright li li{position:relative; float:none; width:100%; z-index:50;}

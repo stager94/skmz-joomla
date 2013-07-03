@@ -1,0 +1,32 @@
+<gallery title="MorfeoShow Gallery" thumbDir="/images/morfeoshow/" imageDir="/images/morfeoshow/" random="true">
+<category name="certificate">
+<image>
+<date>19 Сентябрь 2010</date>
+<title>Сертификат</title>
+<desc><![CDATA[<p>Сертификат на систему управления качеством</p>]]></desc>
+<thumb>certificate-6016/mini/cert_1.jpg</thumb>
+<img>certificate-6016/big/cert_1.jpg</img>
+</image>
+<image>
+<date>19 Сентябрь 2010</date>
+<title>Сертификат</title>
+<desc><![CDATA[<p>Сертификат соответствия системы менеджмента требованиям стандарта EN ISO 9001:2008</p>]]></desc>
+<thumb>certificate-6016/mini/cert_2.jpg</thumb>
+<img>certificate-6016/big/cert_2.jpg</img>
+</image>
+<image>
+<date>19 Сентябрь 2010</date>
+<title>Certificate</title>
+<desc><![CDATA[<p>Certificate EN ISO 9001:2008</p>]]></desc>
+<thumb>certificate-6016/mini/cert_4.jpg</thumb>
+<img>certificate-6016/big/cert_4.jpg</img>
+</image>
+<image>
+<date>19 Сентябрь 2010</date>
+<title>Свидетельство об аттестации</title>
+<desc><![CDATA[<p>Свидетельство об аттестации ЦЗЛ</p>]]></desc>
+<thumb>certificate-6016/mini/Свидетельства-лаборатории.jpg</thumb>
+<img>certificate-6016/big/Свидетельства-лаборатории.jpg</img>
+</image>
+</category>
+</gallery

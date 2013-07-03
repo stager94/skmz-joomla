@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>Countdown Module</name>
+	<author>OSTraining.com</author>
+	<creationDate>3 March 2010</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@ostraining.com.com</authorEmail>
+	<authorUrl>www.ostraining.com</authorUrl>
+	<version>2.1.0</version>
+	<description>The module displays a countdown to an event of your choice. Now developed by http://OSTraining.com, it was originally developed by Beliyadm from http://blog.pbelkov.com</description>
+	<files>
+		<filename module="mod_countdown">mod_countdown.php</filename>
+		<filename module="mod_countdown">helper.php</filename>
+		<filename module="mod_countdown">index.html</filename>
+		<filename module="mod_countdown">tmpl/default.php</filename>
+		<filename module="mod_countdown">tmpl/style.css</filename>
+		<filename module="mod_countdown">tmpl/index.html</filename>
+	</files>
+	<params>
+		<param name="ev_dtitle" type="radio" default="1" label="Display Event Title" description="Yes or No">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ev_tit" type="text" default="Event Title..." label="Event Title" description="Enter a title for your event" size="40"/>
+		<param name="ev_ddate" type="radio" default="1" label="Display Event Date" description="Display the date of the Event">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ev_d" type="text" default="01" label="Day" description="Day to count to"/>
+		<param name="ev_m" type="text" default="01" label="Month" description="Month to count to"/>
+		<param name="ev_y" type="text" default="2010" label="Year" description="Year to count to"/>
+		<param name="ev_ddleft" type="radio" default="1" label="Time to event" description="Do you want to display the word (Days away to event)">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ev_dhour" type="radio" default="1" label="Hours/Minutes?" description="Do you want to display the words (Hours and minutes to event)">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ev_js" type="radio" default="1" label="JS effect" description="Show countdown in real time (per second)">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ev_h" type="text" default="12" label="Hour" description="Hour Event"/>
+		<param name="ev_min" type="text" default="00" label="Minute" description="Minute event"/>
+		<param name="@spacer" type="spacer" />
+		<param name="ev_dlink" type="radio" default="1" label="Show link on the description of the event?" description="Да или нет">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ev_endtime" type="text" default="Time's Up" label="Time has come" description="Text to display whencountdown is reached"/>
+		<param name="ev_ltitle" type="text" default="" label="Text URL" description="Text to display instead of URL"/>
+		<param name="ev_l" type="text" default="" label="URL" description="URL links to the description of the event (in the format http:// ...)"/>
+		<param name="@spacer" type="spacer" />
+		<param name="loadcss" type="radio" default="1" label="Load Module CSS?" description="Yes or no - if not, then the contents of the file modules / mod_countdown / tmpl / style.css introduce a CSS template or allow Joomla template to handle css">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,129 @@
+/* HORIZONTAL TAB DROP DOWN MENU STYLES */
+
+#horiz-menu a { color:#fff; text-decoration:none; text-transform:uppercase }
+#horiz-menu li {  }
+#horiz-menu li.active a,
+#horiz-menu li.sfHover.active a {color:#b5e2f5 }
+#horiz-menu.splitmenu li.active a,
+#horiz-menu.splitmenu li.active-sfHover a {   }
+#horiz-menu.splitmenu li.active {  }
+#horiz-menu li:hover a,
+#horiz-menu li.sfHover a {
+	color:#fff
+}
+#horiz-menu li li a:hover,
+#horiz-menu li.active,
+#horiz-menu li.active li a:hover { color:#fff } /*dropmenu sublink color */
+#horiz-menu li li a,
+#horiz-menu li.active li a,
+#horiz-menu li.active-sfHover a,
+#horiz-menu li.active.parent.sfHover a { color:#fff }
+#horiz-menu li.active.sfHover li a, 
+#horiz-menu li.active.sfHover li a:hover { font-weight:normal; color:#fff } /*ACTIVE DROP MENU BACKGROUND*/
+#horiz-menu li li.parent a.daddy,
+#horiz-menu li.active li.parent a.daddy,
+#horiz-menu li li.parent:hover a.daddy,
+#horiz-menu li.active li.parent:hover a.daddy,
+#horiz-menu li li.parent-sfHover a.daddy,
+#horiz-menu li.active li.parent-sfHover a.daddy,
+#horiz-menu li li, 
+#horiz-menu li:hover li,
+#horiz-menu li.sfHover li,
+#horiz-menu li.parent:hover li,
+#horiz-menu li.parent.sfHover li,
+#horiz-menu li.active.parent:hover li,
+#horiz-menu li.active.parent.sfHover li { border-bottom:1px solid #fff; background:none /*background image for submenu here */ }
+#horiz-menu ul ul { background:#134365 }
+
+/* @group Horizontal Menu */
+
+#horiz-menu {
+	height:35px;
+	padding:15px 0 0 30px;
+	margin:0;
+	float:left; 
+	z-index:50 !important;
+	width:730px 
+}
+#horiz-menu ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	float:left;	z-index:50 !important;
+}
+#horiz-menu li {
+	display: block;
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 0;	z-index:50 !important;
+}
+#horiz-menu a,
+#horiz-menu li.active a {
+	white-space:nowrap;
+	display:block;
+	float:left;
+	height:35px;
+	line-height:35px;
+	padding: 0 8px;
+	font-weight:700;
+	font-size:1.3em;
+	overflow:hidden; z-index:50 !important;
+}
+#horiz-menu a {
+	background-position: 0 -38px;
+	background-repeat: no-repeat;	z-index:50 !important;
+}
+#horiz-menu li {
+	background-position: 100% -38px;
+	background-repeat: no-repeat;	z-index:50 !important;
+}
+#horiz-menu li:hover a,
+#horiz-menu li.sfHover a {
+	background-position: 0 -76px;	z-index:50 !important;
+}
+#horiz-menu li:hover,
+#horiz-menu li.sfHover {
+	background-position: 100% -76px;	z-index:50 !important;
+}
+#horiz-menu li.parent:hover a,
+#horiz-menu li.parent.sfHover a,
+#horiz-menu li.parent-sfHover a {
+	background-position: 0 -114px;	z-index:50 !important;
+}
+#horiz-menu li.parent:hover,
+#horiz-menu li.parent.sfHover,
+#horiz-menu li.parent-sfHover {
+	background-position: 100% -114px;	z-index:50 !important;
+}
+#horiz-menu li.active a {
+	background-position:0 0; z-index:50 !important;
+}
+#horiz-menu li.active {
+	background-position:100% 0; z-index:50 !important;
+}
+
+/* splitmenu specific overrides */
+
+#horiz-menu.splitmenu li.parent:hover a,
+#horiz-menu.splitmenu li.parent-sfHover a {
+	background-position:0 -76px; z-index:50 !important;
+}
+#horiz-menu.splitmenu li.parent:hover,
+#horiz-menu.splitmenu li.parent-sfHover {
+	background-position:100% -76px;	z-index:50 !important;
+}
+#horiz-menu.splitmenu li.active:hover a,
+#horiz-menu.splitmenu li.active-sfHover a {
+	background-position:0 0; z-index:50 !important;
+}
+#horiz-menu.splitmenu li.active:hover,
+#horiz-menu.splitmenu li.active-sfHover {
+	background-position:100% 0; z-index:50 !important;
+}
+#horiz-menu a:hover { text-decoration:none; z-index:50 !important }
+
+/* mouseovers -- background ul colors */
+#horiz-menu li li a:hover, #horiz-menu li.active li a:hover { background:#255c80; z-index:50 !important }
+#horiz-menu li li.active, #horiz-menu li.active li a { z-index:50 !important; font-size:100% }
+#horiz-menu li li a { font-size:100%; font-weight:normal; background:none; z-index:50 !important }
+

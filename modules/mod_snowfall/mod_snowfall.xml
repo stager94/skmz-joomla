@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JSnowfall</name>
+	<author>Jfriendly.net</author>
+	<creationDate>October 19, 2008</creationDate>
+	<copyright>2008 Jfriendly.net. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.jfriendly.net</authorUrl>
+	<version>1.0</version>
+	<description>
+                  Snowfall module by Jfriendly.net. Disable the title and publish. If you like this module, please consider making a donation at http://www.jfriendly.net. Enjoy!
+        </description>
+	<files>
+		<filename module="mod_snowfall">mod_snowfall.php</filename>
+                <filename>image/jsnowfall.png</filename>
+                <filename>image/snow/0.gif</filename>
+                <filename>image/snow/0.png</filename>
+                <filename>image/snow/1.gif</filename>
+                <filename>image/snow/1.png</filename>
+                <filename>image/snow/2.gif</filename>
+                <filename>image/snow/2.png</filename>
+                <filename>image/snow/3.gif</filename>
+                <filename>image/snow/3.png</filename>
+                <filename>image/snow/4.gif</filename>
+                <filename>image/snow/4.png</filename>
+                <filename>image/snow/5.gif</filename>
+                <filename>image/snow/5.png</filename>
+                <filename>image/snow/none.gif</filename>
+	</files>
+        <params>
+        	<param name="moduleclass_sfx" type="text" default="_none" label="Module Class Suffix" description="A suffix to be applied to the css class of the module.  '_none' is a dummy value to override the module class." />
+             
+	</params>
+
+</install>

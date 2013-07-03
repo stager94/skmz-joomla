@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>theme_business094</name>
+	<version>1.5</version>
+	<creationDate>06/23/09</creationDate>
+	<author>Joomla Template Shop</author>
+	<authorEmail>support@joomlatemplateshop.net</authorEmail>
+	<authorUrl>http://www.joomlatemplateshop.net</authorUrl>
+	<copyright>Copyright 2009 Joomla Template Shop. All Rights Reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>A business Joomla 1.5! template.</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>menu_tools.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+        <folder>css/</folder>
+		<folder>html/</folder>
+		<folder>images/</folder>
+	    <folder>js/</folder>
+	</files>
+
+	<positions>
+	    <position>dropmenu</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>footer</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>debug</position>
+	</positions>
+	
+	<params>
+		
+		<param name="show_effects" type="radio" default="1" label="Show mootools effects" description="Enable/Disable the use of rich javascript effect on the site">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="modules_start" type="list" default="open" label="Modules State" description="When effect enabled choose if the modules slides should start open or closed">
+			<option value="open">Open</option>
+			<option value="close">Close</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Christmas_snow</name>
+  <author>juan Carlos Dans</author>
+  <authorEmail>iniciodirecto@iniciodirecto.com</authorEmail>
+  <authorUrl>www.iniciodirecto.com</authorUrl>
+  <creationDate>Noviembre 2009</creationDate>
+  <copyright>(C) 2009 juan Carlos Dans</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.0.0.0</version>
+  <files>
+    <filename module="mod_Christmas_snow">mod_Christmas_snow.php</filename>
+	<filename module="mod_Christmas_snow">snow.gif</filename>	
+  </files>
+   
+</install>
+
+
+
+
+
+
+
+

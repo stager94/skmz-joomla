@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>Cool jQuery Countdown</name>
+	<author>www.ofertaweb.ro</author>
+	<creationDate>07/05/2010</creationDate>
+	<copyright>oferta_web</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>office@ofertaweb.ro</authorEmail>
+	<authorUrl>http://www.ofertaweb.ro</authorUrl>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	# Cool jQuery Countdown #
+A cool jQuery Countdown. Original version here: http://www.littlewebthings.com/2010/02/jquery-countdown-script/  We just port it to Joomla. If you like this component please give the credit to the original developer.
+		]]>
+	</description>
+	<files>
+		<filename module="mod_cool_jquery_countdown">mod_cool_jquery_countdown.php</filename>
+
+		<filename>style/dark.css</filename>
+		<filename>style/main.css</filename>
+
+		<filename>js/misc.js</filename>
+		<filename>js/jquery-1.4.1.js</filename>
+		<filename>js/jquery.lwtCountdown-0.9.5.js</filename>
+
+		<filename>images/dark_days_dash.png</filename>
+		<filename>images/dark_hours_dash.png</filename>
+		<filename>images/dark_minutes_dash.png</filename>
+		<filename>images/dark_seconds_dash.png</filename>
+		<filename>images/dark_weeks_dash.png</filename>
+		<filename>images/dash.png</filename>
+		<filename>images/loading.gif</filename>
+
+		<filename>process_date.php</filename>
+		
+
+	</files>
+	<params>
+
+    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+
+	<param name="target_day" type="text" default="01" label="Target day" description="" />
+	<param name="target_month" type="text" default="01" label="Target month" description="" />
+	<param name="target_year" type="text" default="2011" label="Target year" description="" />
+	<param name="target_hour" type="text" default="01" label="Target hour" description="" />
+	<param name="target_minute" type="text" default="01" label="Target minute" description="" />
+	<param name="target_second" type="text" default="01" label="Target second" description="" />
+
+
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param name="message1" type="text" default="This is message 1" label="Message 1:" description="" />
+	<param name="message2" type="text" default="This is message 2" label="Message 2:" description="" />
+	<param name="message3" type="text" default="This is message 3" label="Message 3:" description="" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+<param name="style" type="radio" default='1' label="Style" description="What css file to use">
+			<option value='0'>white</option>
+			<option value='1'>dark</option>
+			
+		</param>
+
+
+	
+	
+		
+  </params>
+</install>

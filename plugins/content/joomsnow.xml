@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - JoomSnow</name>
+	<author>Eugen Karban</author>
+	<creationDate>December 2008</creationDate>
+	<copyright>Copyright (C) eugenkarban.de. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>eugenk@web.de</authorEmail>
+	<authorUrl>www.eugenkarban.de/joomla</authorUrl>
+	<version>1.0</version>
+	<description>SNOW FALLING ON YOUR JOOMLA CONTENT PAGES</description>
+	<files>
+		<filename plugin="joomsnow">joomsnow.php</filename>
+	</files>
+	<params>
+		<param name="snowmax" type="text" default="35" label="Snowmax" description="NUMBER OF SNOWFLOCKS FALLING" />
+		<param name="snowletter" type="text" default="*" label="Snowletter" description="SNOWFLOCKS CHARACTER" />
+		<param name="sinkspeed" type="text" default="0.6" label="Sinkspeed" description="SNOWFLOCKS SINKSPEED" />
+		<param name="snowminsize" type="text" default="8" label="Snowminsize" description="MINIMUM SIZE OF THE SNOWFLOCKS" />
+		<param name="snowmaxsize" type="text" default="22" label="Snowmaxsize" description="MAXIMUM SIZE OF THE SNOWFLOCKS" />
+		<param name="snowingzone" type="text" default="1" label="Snowingzone" description="SNOW ZONE" />
+	</params>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_joomsnow.ini</language>
+		<language tag="de-DE">de-DE.plg_content_joomsnow.ini</language>
+		<language tag="ro-RO">ro-RO.plg_content_joomsnow.ini</language>
+	</languages>
+</install>

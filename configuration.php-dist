@@ -1,0 +1,107 @@
+<?php
+/**
+* @version		$Id: configuration.php-dist 14401 2010-01-26 14:10:00Z louis $
+* @package		Joomla
+* @copyright	Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+* @license		GNU/GPL, see LICENSE.php
+* Joomla! is free software and parts of it may contain or be derived from the
+* GNU General Public License or other free or open source software licenses.
+* See COPYRIGHT.php for copyright notices and details.
+*
+* -------------------------------------------------------------------------
+* ЭТОТ ФАЙЛ ДОЛЖЕН ИСПОЛЬЗОВАТЬСЯ, ЕСЛИ НЕ УДАЛОСЬ УСТАНОВИТЬ С ПОМОЩЬЮ ВЕБ-ИНСТАЛЛЯТОРА
+*
+* Если вы установили Joomla! вручную, без веб-инсталлятора,
+* то переименуйте этот файл в configuration.php
+*
+* Примеры команд переименования файла
+* для UNIX -> mv configuration.php-dist configuration.php
+* для Windows -> rename configuration.php-dist configuration.php
+*
+* Отредактируйте этот файл и настройте параметры для сайта и базы данных.
+*/
+class JConfig {
+	/**
+	* -------------------------------------------------------------------------
+	* Конфигурация сайта
+	* -------------------------------------------------------------------------
+	*/
+	/* Настройки сайта */
+	var $offline = '0';
+	var $offline_message = 'Сайт находится на техобслуживании. <br />Пожалуйста, зайдите позже.';
+	var $sitename = 'Joomla!';		// Название сайта
+	var $editor = 'tinymce';
+	var $list_limit = '20';
+	var $legacy = '0';
+
+	/**
+	* -------------------------------------------------------------------------
+	* Конфигурация базы данных
+	* -------------------------------------------------------------------------
+	*/
+	/* База данных */
+	var $dbtype = 'mysql';			// Тип БД. Обычно mysql
+	var $host = 'localhost';		// Адрес хоста. Обычно localhost
+	var $user = '';				// Имя пользователя MySQL
+	var $password = '';			// Пароль MySQL
+	var $db = '';				// Название БД MySQL
+	var $dbprefix = 'jos_';			// Префикс таблиц БД. Не меняйте, если не уверены!
+
+	/* Сервер */
+	var $secret = 'FBVtggIk5lAzEU9H'; 	// Секретный код. Измените для большей безопасности
+	var $gzip = '0';
+	var $error_reporting = '-1';
+	var $helpurl = 'http://help.joomla.org';
+	var $xmlrpc_server = '1';
+	var $ftp_host = '';
+	var $ftp_port = '';
+	var $ftp_user = '';
+	var $ftp_pass = '';
+	var $ftp_root = '';
+	var $ftp_enable = '';
+	var $tmp_path	= '/tmp';
+	var $log_path	= '/var/logs';
+	var $offset = '0';
+	var $live_site = ''; 	// Необязательный параметр, полный URL к установленной Joomla.
+	var $force_ssl = 0;	// Области сайта с принудительным включением ТОЛЬКО SSL.  0 = Не использовать, 1 = Админцентр, 2 = Сайт и админцентр
+
+	/* Сессии */
+	var $lifetime = '15';	// Время действия сессии
+	var $session_handler = 'database';
+
+	/* Почта */
+	var $mailer = 'mail';
+	var $mailfrom = '';
+	var $fromname = '';
+	var $sendmail = '/usr/sbin/sendmail';
+	var $smtpauth = '0';
+	var $smtpuser = '';
+	var $smtppass = '';
+	var $smtphost = 'localhost';
+
+	/* Кэш */
+	var $caching = '0';
+	var $cachetime = '15';
+	var $cache_handler = 'file';
+
+	/* Отладка */
+	var $debug      = '0';
+	var $debug_db 	= '0';
+	var $debug_lang = '0';
+
+	/* Мета-данные */
+	var $MetaDesc = 'Joomla! - система управления сайтом и движок динамичного портала';
+	var $MetaKeys = 'joomla, Joomla';
+	var $MetaTitle = '1';
+	var $MetaAuthor = '1';
+
+	/* SEO */
+	var $sef = '0';
+	var $sef_rewrite = '0';
+	var $sef_suffix = '';
+
+	/* Каналы новостей */
+	var $feed_limit   = 10;
+	var $feed_email   = 'author';
+}
+?>

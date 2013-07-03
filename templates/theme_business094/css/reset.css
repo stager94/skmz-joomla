@@ -1,0 +1,8 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, em, img, ins, strong, sub, sup, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, caption, tfoot, thead { margin:0; padding:0; border:0; }
+a img, :link img, :visited img { border:0; outline:none; }
+
+table { border-collapse:collapse }
+td { vertical-align:top }
+ul { list-style:disc; margin:0px 0px 0px 15px }
+ol { margin:0px 0px 0px 15px }
+
