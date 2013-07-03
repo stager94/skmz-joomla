@@ -15,8 +15,8 @@ class JConfig {
 	var $gzip = '0';
 	var $error_reporting = '-1';
 	var $xmlrpc_server = '0';
-	var $log_path = '/home/skmzdn/public_html/logs';
-	var $tmp_path = '/home/skmzdn/public_html/tmp';
+	var $log_path = '/var/www/skmz.dn.ua/public_html/skmz_joomla/logs';
+	var $tmp_path = '/var/www/skmz.dn.ua/public_html/skmz_joomla/tmp';
 	var $live_site = '';
 	var $force_ssl = '0';
 	var $offset = '3';
@@ -32,7 +32,7 @@ class JConfig {
 	var $ftp_root = '';
 	var $dbtype = 'mysql';
 	var $host = 'localhost';
-	var $user = 'skmzdn_admin';
+	var $user = 'root';
 	var $db = 'skmzdn_db';
 	var $dbprefix = 'jos_';
 	var $mailer = 'mail';
@@ -49,7 +49,7 @@ class JConfig {
 	var $MetaTitle = '1';
 	var $lifetime = '15';
 	var $session_handler = 'database';
-	var $password = 'HB;cSLF~6z?E';
+	var $password = 'skmzskmz';
 	var $sitename = 'ПАО «СКМЗ»';
 	var $MetaDesc = 'Официальный сайт - ПАО &quot;Старокраматорский машиностроительный завод&quot;, Донецкая область.';
 	var $MetaKeys = 'СКМЗ, завод, машиностроение, станки';
