@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 class JConfig {
 	var $offline = '0';
