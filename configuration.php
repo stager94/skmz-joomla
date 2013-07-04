@@ -15,7 +15,7 @@ class JConfig {
 	var $gzip = '0';
 	var $error_reporting = '-1';
 	var $xmlrpc_server = '0';
-	var $log_path = '/var/www/skmz.dn.ua/public_html/skmz-joomla/loggggg';
+	var $log_path = '/var/www/skmz.dn.ua/public_html/skmz-joomla/logs';
 	var $tmp_path = '/var/www/skmz.dn.ua/public_html/skmz-joomla/tmp';
 	var $live_site = '';
 	var $force_ssl = '0';
