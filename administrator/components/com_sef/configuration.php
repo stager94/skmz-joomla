@@ -1,6 +1,6 @@
 <?php
 $alwaysUseLang = "1";
-$enabled = "1";
+$enabled = "0";
 $replacement = "-";
 $pagerep = "-";
 $stripthese = ",|~|!|@|%|^|*|(|)|+|<|>|:|;|{|}|[|]|---|--|..|.";
@@ -43,15 +43,15 @@ $dontRemoveSid = "0";
 $setQueryString = "1";
 $parseJoomlaSEO = "1";
 $customNonSef = "";
-$jfBrowserLang = true;
-$jfLangCookie = true;
-$jfSubDomains = array();
+$jfBrowserLang = "1";
+$jfLangCookie = "1";
+$jfSubDomains = array('ru' => "skmz.ozerki.dn.ua",'en' => "skmz.ozerki.dn.ua");
 $contentUseIndex = "1";
 $checkJunkUrls = "1";
 $junkWords = "http:// http// https:// https// www. @";
 $junkExclude = "";
 $preventNonSefOverwrite = "1";
-$mainLanguage = 0;
+$mainLanguage = "0";
 $allowUTF = "0";
 $numberDuplicates = "0";
 $artioUserName = "";

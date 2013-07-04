@@ -6,7 +6,7 @@ class JConfig {
 	var $helpurl = 'http://help.joomla.org';
 	var $debug = '0';
 	var $debug_lang = '0';
-	var $sef = '0';
+	var $sef = '1';
 	var $sef_rewrite = '1';
 	var $sef_suffix = '0';
 	var $feed_limit = '10';
