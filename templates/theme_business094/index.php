@@ -50,6 +50,7 @@ JHTML::_( 'behavior.mootools' );
 	<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/site2.js"></script>
 	<?php endif; ?>
     <?php endif; ?>
+    <base href="http://www.skmz.dn.ua" />
 	</head>
 	<body> 
 	<div id="body">
